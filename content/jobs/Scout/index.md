@@ -1,11 +1,12 @@
 ---
-date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+date: '2018-05-21'
+title: 'IT Helpdesk Analyst'
+company: 'SolarWinds'
+location: 'Austin, Tx'
+range: 'May 2018 - November 2020'
+url: 'https://solarwinds.com/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Managed systems authentication and user configuration in a hybrid cloud environment with tools such as Active Directory and Microsoft Azure to deliver a fluid end-user experience.
+- Communicated and worked directly between end-users and IT systems departments to resolve client and server-side incidents.
+- Led a variety of IT projects in managing external vendors and utilizing internal resources to install SolarWinds' first IT Tech Bar.

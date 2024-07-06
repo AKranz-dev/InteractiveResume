@@ -33,7 +33,7 @@ const StyledText = styled.div`
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: var(--fz-certs);
 
       &:before {
         content: '▹';
@@ -125,7 +125,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  //Commented out because I'm defining skills manually below
+  //const skills = ['AWS Certified DevOps Engineer Professional', 'Certified Kubernetes Administrator', 'Google IT Automation with Python Professional'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,37 +136,57 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Austin Kranz and I enjoy improving development and IT operations
+              through automation. My journey to DevOps began with a fascination for problem-solving
+              and love for IT and software development. Over the years, I've honed my skills in a
+              variety of tools and technologies, bridging the gap between development and
+              operations.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Fast-forward to today, and I’ve had the privilege of working for a{' '}
+              <a href="https://solarwinds.com/">worldwide leader</a> in IT observability,{' '}
+              <a href="https://txst.yuja.com/V/Video?v=5488543&node=24179505&a=478761609">
+                guest lecturing
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              at Texas State University, and working towards personal projects and{' '}
+              <a href="https://www.linkedin.com/in/austinkranz/">achievements</a>. My main focus
+              these days is building reliable and scalable infrastructure in AWS at{' '}
+              <a href="https://buildasign.com/">BuildASign</a>.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p style={{ color: 'var(--lightest-slate)', fontSize: '1.3em' }}>
+              View my DevOps Professional certifications:
+            </p>
           </div>
 
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            <li>
+              {' '}
+              <a
+                href="https://www.credly.com/badges/ba222ba1-3751-4dc4-806c-0cfc4e27d355/linked_in_profile"
+                target="_blank" rel="noreferrer">
+                AWS Certified DevOps Engineer Professional
+              </a>
+            </li>{' '}
+            <li>
+              {' '}
+              <a
+                href="https://www.credly.com/badges/b4c369e6-dd83-4878-b72c-043e8b7a8729/linked_in_profile"
+                target="_blank" rel="noreferrer">
+                Certified Kubernetes Administrator
+              </a>
+            </li>{' '}
+            <li>
+              {' '}
+              <a
+                href="https://www.coursera.org/account/accomplishments/professional-cert/6LBKBW5D3EN7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+                target="_blank" rel="noreferrer">
+                Google IT Automation with Python Professional
+              </a>
+            </li>{' '}
+            {/*Commented out the original list below, to allow the list items to be hyperlinks/*}
+            {/*{skills && skills.map((skill, i) => <li key={i}>{skill}</li>)} */}
           </ul>
         </StyledText>
 

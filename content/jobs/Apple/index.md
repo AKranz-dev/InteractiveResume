@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2020-11-01'
+title: 'Engineering Operations'
+company: 'SolarWinds'
+location: 'Austin, Tx'
+range: 'November 2020 - July 2021'
+url: 'https://solarwinds.com/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Administered high-availability VMware vRealize Automation (vRA) cloud service clusters across 3 major data centers that serve SolarWinds developers around the globe.
+- Troubleshot issues with automated deployments of a wide range of desktop and server operating systems (Windows, Mac, Linux distributions) and services (Active Directory, SharePoint, Exchange, etc.).
+- Customized and debugged PowerShell and Ansible automation scripts/playbooks for virtual machine and service deployments.
+- Performed vRA service maintenance including patching, upgrades, and monitoring.
