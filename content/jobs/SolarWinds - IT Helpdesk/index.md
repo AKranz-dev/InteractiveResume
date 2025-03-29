@@ -1,7 +1,7 @@
 ---
 date: '2018-05-21'
 title: 'IT Helpdesk Analyst'
-company: 'SolarWinds'
+company: 'SolarWinds - IT Helpdesk'
 location: 'Austin, Tx'
 range: 'May 2018 - November 2020'
 url: 'https://solarwinds.com/'
