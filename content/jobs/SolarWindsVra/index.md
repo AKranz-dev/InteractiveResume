@@ -1,7 +1,7 @@
 ---
 date: '2020-11-01'
 title: 'Engineering Operations'
-company: 'SolarWinds'
+company: 'SolarWinds - DevOps'
 location: 'Austin, Tx'
 range: 'November 2020 - July 2021'
 url: 'https://solarwinds.com/'

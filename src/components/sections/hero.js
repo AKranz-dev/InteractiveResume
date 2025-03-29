@@ -65,13 +65,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a DevOps Engineer adept in designing and implementing scalable solutions that improve
-        system reliability and reduce downtime. Currently, I’m focused on authoring DevOps processes
-        at at{' '}
-        <a href="https://buildasign.com/" target="_blank" rel="noreferrer">
-          BuildASign
+        I’m a Cloud DevOps Engineer adept in designing and implementing scalable solutions that
+        improvenpm system reliability and reduce downtime. Currently, I’m focused on supporting
+        player experiences at{' '}
+        <a href="https://ea.com/" target="_blank" rel="noreferrer">
+          Electronic Arts
         </a>
-        , as the company's inaugural DevOps Engineer.
+        , as a Cloud Engineer.
       </p>
     </>
   );
