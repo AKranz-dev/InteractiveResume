@@ -3,6 +3,9 @@
 node_modules
 yarn-error.log
 package-lock.json
+firebase.json
+.firebaserc
+.firebase/*
 
 # Build directory
 /public
