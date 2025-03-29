@@ -151,8 +151,8 @@ const About = () => {
               </a>{' '}
               at Texas State University, and working towards personal projects and{' '}
               <a href="https://www.linkedin.com/in/austinkranz/">achievements</a>. My main focus
-              these days is building reliable and scalable infrastructure in AWS at{' '}
-              <a href="https://buildasign.com/">BuildASign</a>.
+              these days is building reliable and scalable infrastructure to support player-facing
+              experiences at <a href="https://ea.com/">Electronic Arts</a>.
             </p>
 
             <p style={{ color: 'var(--lightest-slate)', fontSize: '1.3em' }}>
@@ -165,7 +165,8 @@ const About = () => {
               {' '}
               <a
                 href="https://www.credly.com/badges/ba222ba1-3751-4dc4-806c-0cfc4e27d355/linked_in_profile"
-                target="_blank" rel="noreferrer">
+                target="_blank"
+                rel="noreferrer">
                 AWS Certified DevOps Engineer Professional
               </a>
             </li>{' '}
@@ -173,7 +174,8 @@ const About = () => {
               {' '}
               <a
                 href="https://www.credly.com/badges/b4c369e6-dd83-4878-b72c-043e8b7a8729/linked_in_profile"
-                target="_blank" rel="noreferrer">
+                target="_blank"
+                rel="noreferrer">
                 Certified Kubernetes Administrator
               </a>
             </li>{' '}
@@ -181,7 +183,8 @@ const About = () => {
               {' '}
               <a
                 href="https://www.coursera.org/account/accomplishments/professional-cert/6LBKBW5D3EN7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
-                target="_blank" rel="noreferrer">
+                target="_blank"
+                rel="noreferrer">
                 Google IT Automation with Python Professional
               </a>
             </li>{' '}
