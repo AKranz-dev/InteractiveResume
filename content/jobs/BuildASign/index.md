@@ -3,7 +3,7 @@ date: '2021-07-05'
 title: 'DevOps Engineer'
 company: 'BuildASign'
 location: 'Austin, Tx'
-range: 'July 2021 - Present'
+range: 'July 2021 - October 2024'
 url: 'https://www.buildasign.com/'
 ---
 
