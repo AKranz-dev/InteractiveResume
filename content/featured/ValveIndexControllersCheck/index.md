@@ -6,7 +6,7 @@ github: 'https://github.com/AKranz-dev/ValveIndexStockChecker'
 
 tech:
   - Python
-  - BeautfilSoup4
+  - BeautifulSoup4
   - AWS Lambda
   - AWS SNS
 ---
