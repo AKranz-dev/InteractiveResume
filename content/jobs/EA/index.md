@@ -7,8 +7,8 @@ range: 'October 2024 - Present'
 url: 'https://www.ea.com/'
 ---
 
-- Developed solutions for complex business problems using modern cloud constructs and custom development to support player-facing web applications at help.ea.com.
-- Served as a first point of contact for EA Player Experience application infrastructure, spanning over 8 EKS clusters and multiple AWS accounts.
-- Initiated and created experiences in partnership with distributed teams to ensure the architectural vision is supported and delivered to the highest standards.
-- Provided support to development and QA teams on all new infrastructure from creation through integration.
-- Built integrations with internal and external systems hosted in the cloud.
+- Lead technical POCs and architecture decisions for critical infrastructure initiatives, presenting to engineering managers, directors, and architects to drive org-wide adoption.
+- Serve as technical authority for EA Player Experience application infrastructure, spanning over 13 EKS clusters and multiple AWS accounts.
+- Design reusable Terraform modules from scratch (AWS and Azure infra), author implementation documentation, and establish team-wide standards that enabled consistent, production-ready deployments across multiple applications.
+- Drive standardization initiatives across the platform, implementing centralized configuration patterns and reusable templates that reduce deployment complexity and ensure consistency.
+- Enable rapid adoption of emerging technologies by establishing infrastructure foundations and documentation that allow teams to independently deploy new capabilities.
