@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Austin Kranz',
     description:
-      'Austin Kranz is a DevOps Engineer who specializes in building cloud DevOps solutions that exceed customer expectations.',
+      'Austin Kranz is a Senior DevOps Engineer who specializes in building cloud DevOps solutions that exceed customer expectations.',
     siteUrl: 'https://austinkranz.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',

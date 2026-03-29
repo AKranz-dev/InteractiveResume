@@ -65,13 +65,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Cloud DevOps Engineer adept in designing and implementing scalable solutions that
-        improve system reliability and reduce downtime. Currently, I’m focused on supporting player
-        experiences at{' '}
+        I’m a Senior Cloud DevOps Engineer adept in designing and implementing scalable solutions
+        that improve system reliability and reduce downtime. Currently, I’m focused on supporting
+        player experiences at{' '}
         <a href="https://ea.com/" target="_blank" rel="noreferrer">
           Electronic Arts
         </a>
-        , as a Cloud Engineer.
+        , as a Senior Cloud Engineer.
       </p>
     </>
   );

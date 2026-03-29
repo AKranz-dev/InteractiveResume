@@ -1,9 +1,9 @@
 ---
 date: '2024-10-07'
-title: 'Cloud Engineer'
+title: 'Senior Cloud Engineer'
 company: 'Electronic Arts'
 location: 'Austin, Tx'
-range: 'October 2024 - Present'
+range: 'October 2024 - Present · Promoted March 2026'
 url: 'https://www.ea.com/'
 ---
 
