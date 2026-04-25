@@ -179,6 +179,7 @@ const ArchivePage = ({ location, data }) => {
                     title,
                     tech,
                     company,
+                    leetcode,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -223,6 +224,11 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="PlayStore" />
                             </a>
                           )}
+                          {leetcode && (
+                            <a href={leetcode} aria-label="LeetCode Link">
+                              <Icon name="Leetcode" />
+                            </a>
+                          )}{' '}
                         </div>
                       </td>
                     </tr>
@@ -259,6 +265,7 @@ export const pageQuery = graphql`
             ios
             android
             company
+            leetcode
           }
           html
         }
