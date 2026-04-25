@@ -136,11 +136,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Austin Kranz and I enjoy improving development and IT operations
-              through automation. My journey to DevOps began with a fascination for problem-solving
-              and love for IT and software development. Over the years, I've honed my skills in a
-              variety of tools and technologies, bridging the gap between development and
-              operations.
+              Hello! I’m Austin Kranz, a Senior Cloud DevOps Engineer focused on building reliable,
+              scalable infrastructure and enabling engineering teams through automation. My journey
+              to DevOps began with a fascination for problem-solving and love for IT and software
+              development. Over the years, I've honed my skills in a variety of tools and
+              technologies, bridging the gap between development and operations.
             </p>
 
             <p>

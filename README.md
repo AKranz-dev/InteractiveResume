@@ -1,37 +1,35 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  austinkranz.com
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  Interactive resume <a href="https://austinkranz.com" target="_blank">austinkranz.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.firebase.google.com/" target="_blank">Firebase</a>
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
+  Original design by <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> ~ Forked and customized from: <a href="https://github.com/bchiang7/v4" target="_blank">github.com/bchiang7/v4</a>
 </p>
 <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a href="https://firebase.google.com/" target="_blank">
+    <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
   </a>
+  <a href="https://nodejs.org/en" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Javascript" />
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  </a>
+
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](src/images/demo.png)
 
-## 🚨 Forking this repo (please read!)
+## 🚀 Austin Kranz - Interactive Resume
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+Thank you for visiting the austinkranz.com project. This application was originally designed and developed by Brittany Chiang (<a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a>). I have forked and customized the project for my own implementation.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Brittany has generously made the source code publicly available for others to use and adapt. You can find the original repository at <a href="https://github.com/bchiang7/v4" target="\_blank">github.com/bchiang7/v4</a>.
 
 ## 🛠 Installation & Set Up
 
@@ -77,11 +75,11 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Navy           | ![#0a192f](https://placehold.co/10x10/0a192f/0a192f.png) `#0a192f` |
+| Light Navy     | ![#112240](https://placehold.co/10x10/112240/112240.png) `#112240` |
+| Lightest Navy  | ![#233554](https://placehold.co/10x10/233554/233554.png) `#233554` |
+| Slate          | ![#8892b0](https://placehold.co/10x10/8892b0/8892b0.png) `#8892b0` |
+| Light Slate    | ![#a8b2d1](https://placehold.co/10x10/a8b2d1/a8b2d1.png) `#a8b2d1` |
+| Lightest Slate | ![#ccd6f6](https://placehold.co/10x10/ccd6f6/ccd6f6.png) `#ccd6f6` |
+| White          | ![#e6f1ff](https://placehold.co/10x10/e6f1ff/e6f1ff.png) `#e6f1ff` |
+| Green          | ![#64ffda](https://placehold.co/10x10/64ffda/64ffda.png) `#64ffda` |

@@ -1,5 +1,5 @@
-import React from 'react';
-import { graphql, Link } from 'gatsby';
+import React, { useEffect } from 'react'; // Changed from this to disable /pensieve page: import React from 'react';
+import { graphql, Link, navigate } from 'gatsby'; // Changed from this to disable /pensieve page: import { graphql, Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
@@ -143,6 +143,16 @@ const StyledPost = styled.li`
 `;
 
 const PensievePage = ({ location, data }) => {
+  // This block navigates away from /pensieve. Re-enable the /pensieve page by setting DISABLE_PENSIEVE to false
+  const DISABLE_PENSIEVE = true;
+  useEffect(() => {
+    if (DISABLE_PENSIEVE) {
+      navigate('/', { replace: true });
+    }
+  }, []);
+  if (DISABLE_PENSIEVE) {return null;}
+  // End of navigation override block
+
   const posts = data.allMarkdownRemark.edges;
 
   return (
@@ -211,7 +221,10 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: {
+        fileAbsolutePath: { regex: "/content/posts/" }
+        frontmatter: { draft: { ne: true } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
