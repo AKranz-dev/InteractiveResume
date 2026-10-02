@@ -151,8 +151,8 @@ const About = () => {
               </a>{' '}
               at Texas State University, and working towards personal projects and{' '}
               <a href="https://www.linkedin.com/in/austinkranz/">achievements</a>. My main focus
-              these days is building reliable and scalable infrastructure to support player-facing
-              experiences at <a href="https://ea.com/">Electronic Arts</a>.
+              these days is building and improving the platforms, tooling, and infrastructure for
+              hardware and software engineering teams at <a href="https://arm.com/">Arm</a>.
             </p>
 
             <p style={{ color: 'var(--lightest-slate)', fontSize: '1.3em' }}>
