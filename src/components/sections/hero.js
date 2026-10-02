@@ -67,10 +67,10 @@ const Hero = () => {
       <p>
         I'm a Senior Cloud DevOps Engineer focused on building reliable, scalable cloud
         infrastructure. I currently work at{' '}
-        <a href="https://ea.com/" target="_blank" rel="noreferrer">
-          Electronic Arts
+        <a href="https://arm.com/" target="_blank" rel="noreferrer">
+          Arm
         </a>
-        , supporting platforms that power player experiences at global scale.
+        , supporting the platforms and tools that power Arm engineering experiences at global scale.
       </p>
     </>
   );
